@@ -400,6 +400,8 @@ footer address{font-style:normal;font-size:14.5px;line-height:2;opacity:.85}
   .cards-5 .card:nth-child(4){grid-column:1/span 5}
   .certs,.personen{grid-template-columns:1fr 1fr}
   .seizoen{grid-template-columns:repeat(3,1fr)}
+  .foot-top{grid-template-columns:repeat(3,1fr)}
+  .foot-brand{grid-column:1/-1;max-width:48ch}
 }
 @media (max-width:720px){
   .nav-in{height:74px}
@@ -412,6 +414,10 @@ footer address{font-style:normal;font-size:14.5px;line-height:2;opacity:.85}
   .stat{padding:24px 18px 20px}
   .hero-stamp{width:88px;height:88px;right:-6px;top:-18px}
   .step{grid-template-columns:46px 1fr;gap:14px}
+  .foot-top{grid-template-columns:1fr;gap:34px}
+  .foot-brand{grid-column:auto}
+  .foot-brand .fmark{font-size:30px}
+  .foot-bot{flex-direction:column;align-items:flex-start;gap:8px}
 }
 
 /* ---------- reduced motion ---------- */
