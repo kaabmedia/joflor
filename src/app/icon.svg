@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Joflor">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0.82" y2="1">
+      <stop offset="0"    stop-color="#A1770C"/>
+      <stop offset="0.37" stop-color="#D29A15"/>
+      <stop offset="0.50" stop-color="#F5E1A6"/>
+      <stop offset="0.63" stop-color="#E8C26A"/>
+      <stop offset="1"    stop-color="#9C7209"/>
+    </linearGradient></defs>
+  <circle cx="32" cy="32" r="31" fill="url(#g)"/>
+  
+    <g transform="translate(5,0) skewX(-8)" fill="none" stroke="#121D16"
+       stroke-linecap="round" stroke-linejoin="round">
+      <path d="M37 18 L37 39 Q37 47 28.5 47 Q20 47 19 38.5" stroke-width="7"/>
+      <path d="M28.5 18 L45.5 18" stroke-width="4.5"/>
+    </g>
+</svg>
