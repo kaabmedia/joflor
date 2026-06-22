@@ -319,7 +319,7 @@ export function Chrome({
         <div className="nav-in">
           <a className="brand" href="/" aria-label="Joflor, naar de homepagina">
             <img
-              src="https://joflor.nl/img/logo.png"
+              src="/img/logo.jpg"
               alt="Joflor"
               onError={(e) => {
                 e.currentTarget.style.display = "none";
