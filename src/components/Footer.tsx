@@ -39,6 +39,7 @@ export function Footer({
               ))}
             </ul>
           </div>
+          {/* Certificaten tijdelijk verborgen
           <div>
             <h4>{lang === "en" ? "Certificates" : "Certificaten"}</h4>
             <ul>
@@ -56,6 +57,7 @@ export function Footer({
               </li>
             </ul>
           </div>
+          */}
           <div>
             <h4>Contact</h4>
             <address className="foot-contact">

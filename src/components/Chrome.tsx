@@ -357,11 +357,13 @@ export function Chrome({
                 ))}
               </div>
             </li>
+            {/* Certificaten tijdelijk verborgen
             <li>
               <a className={isActive("/certificaten") ? "active" : ""} href="/certificaten" data-page-link="certificaten">
                 {lang === "en" ? "Certificates" : "Certificaten"}
               </a>
             </li>
+            */}
             <li>
               <a className={isActive("/contact") ? "active" : ""} href="/contact" data-page-link="contact">
                 Contact

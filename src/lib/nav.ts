@@ -4,7 +4,8 @@ type NavItem = { href: string; nl: string; en: string; pageLink?: string };
 
 export const MAIN_NAV: NavItem[] = [
   { href: "/over-ons", nl: "Over ons", en: "About us", pageLink: "over-ons" },
-  { href: "/certificaten", nl: "Certificaten", en: "Certificates", pageLink: "certificaten" },
+  // Certificaten tijdelijk verborgen
+  // { href: "/certificaten", nl: "Certificaten", en: "Certificates", pageLink: "certificaten" },
   { href: "/contact", nl: "Contact", en: "Contact", pageLink: "contact" },
 ];
 
@@ -22,7 +23,8 @@ export const MOBILE_NAV: NavItem[] = [
   { href: "/floraxchange", nl: "FloraXchange ›", en: "FloraXchange ›" },
   { href: "/showroom", nl: "Showroom ›", en: "Showroom ›" },
   { href: "/verzorging", nl: "Verzorging ›", en: "Care ›" },
-  { href: "/certificaten", nl: "Certificaten", en: "Certificates" },
+  // Certificaten tijdelijk verborgen
+  // { href: "/certificaten", nl: "Certificaten", en: "Certificates" },
   { href: "/contact", nl: "Contact", en: "Contact" },
 ];
 

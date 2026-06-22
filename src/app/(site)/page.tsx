@@ -197,8 +197,8 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* ---------- certificaten-teaser ---------- */}
-      <section className="section-tight" style={{ paddingTop: 0 }}>
+      {/* ---------- certificaten-teaser (tijdelijk verborgen) ---------- */}
+      {/* <section className="section-tight" style={{ paddingTop: 0 }}>
         <div className="wrap">
           <div className="sec-head" style={{ marginBottom: 30 }}>
             <div>
@@ -212,7 +212,7 @@ export default async function HomePage() {
           </div>
           <Chips items={chipItems} lang={lang} className="rv" />
         </div>
-      </section>
+      </section> */}
     </article>
   );
 }
