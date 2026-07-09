@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Bodoni_Moda, Archivo } from "next/font/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 import "./globals.css";
 import { getLang } from "@/lib/getLang";
@@ -48,6 +49,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         />
       </head>
       <body>{children}</body>
+      <GoogleAnalytics gaId="G-X75DEW2CYY" />
     </html>
   );
 }
