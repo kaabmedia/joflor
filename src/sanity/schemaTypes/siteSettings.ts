@@ -19,8 +19,6 @@ export const siteSettings = defineType({
 
     defineField({ name: "footerIntro", title: "Footer-intro", type: "localeText", group: "footer" }),
     defineField({ name: "mpsLogoUrl", title: "MPS-logo URL", type: "url", group: "footer" }),
-    defineField({ name: "copyright", title: "Copyright-regel", type: "localeString", group: "footer" }),
-    defineField({ name: "credit", title: "Credit-regel", type: "localeString", group: "footer" }),
-  ],
+    defineField({ name: "copyright", title: "Copyright-regel", type: "localeString", group: "footer" }),  ],
   preview: { prepare: () => ({ title: "Site-instellingen" }) },
 });

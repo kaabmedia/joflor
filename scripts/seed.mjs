@@ -47,9 +47,7 @@ docs.push({
     "Phalaenopsis nursery, specialised in dyeing orchids. Year round quality from Naaldwijk, the Westland."
   ),
   mpsLogoUrl: "https://joflor.nl/img/mps.png",
-  copyright: ls("© 2026 Joflor · Alle rechten voorbehouden", "© 2026 Joflor · All rights reserved"),
-  credit: ls("Design en realisatie door Kaabmedia", "Design and development by Kaabmedia"),
-});
+  copyright: ls("© 2026 Joflor · Alle rechten voorbehouden", "© 2026 Joflor · All rights reserved"),});
 
 /* ---------- modellen ---------- */
 docs.push(

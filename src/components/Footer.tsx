@@ -86,7 +86,13 @@ export function Footer({
         </div>
         <div className="foot-bot">
           <span>{L(settings?.copyright, lang)}</span>
-          <span>{L(settings?.credit, lang)}</span>
+          <span>
+            Made by{" "}
+            {/* No noreferrer: the credit should show up as referral traffic. */}
+            <a href="https://kaabmedia.nl" target="_blank" rel="noopener">
+              KAAB&reg;
+            </a>
+          </span>
         </div>
       </div>
     </footer>
